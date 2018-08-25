@@ -7,10 +7,6 @@ import android.os.Bundle;
 import android.telephony.SmsMessage;
 import android.widget.Toast;
 
-/**
- * Created by sai on 24-08-2018.
- */
-
 public class SmsReciver extends BroadcastReceiver {
     @Override
     public void onReceive(Context context, Intent intent) {
